@@ -23,18 +23,18 @@ gameOverImage = loadImage("./assets/gameOverBlue.png");
 function setup(){
   createCanvas(windowWidth,windowHeight);
 
-  logo = createImg("assets/logo.png");
+  logo = createImg("assets/logo.png","logo");
   logo.position(windowWidth/100*(37),30);
   logo.size(300,50);
-  level1 = createImg("assets/level1.png");
+  level1 = createImg("assets/level1.png","level1");
   level1.position(windowWidth/100*(45), 100);
   level1.size(100,100);
   level1.mouseClicked(l1);
-  level2 = createImg("assets/level2.png");
+  level2 = createImg("assets/level2.png","level2");
   level2.position(windowWidth/100*(45), 250);
   level2.mouseClicked(l2);
   level2.size(100,100);
-  level3 = createImg("assets/level3.png");
+  level3 = createImg("assets/level3.png","level3");
   level3.position(windowWidth/100*(45), 400);
   level3.mouseClicked(l3);
   level3.size(100,100);
